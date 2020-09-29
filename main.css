@@ -49,6 +49,7 @@ h3 {
 nav a:hover{
 text-decoration: underline;
 background:darkgray;
+border-radius:5px;
 }
 
 
@@ -64,6 +65,8 @@ p{
   padding-right: 100px;
   line-height: 30px;
   background-color: lightgray;
+  border-style:double;
+  border-radius: 10px;
 }
 footer{
 background: darkgray;
@@ -80,6 +83,7 @@ background: darkgray;
 color: white;
 padding: 10px;
 text-decoration: none;
+border-radius: 5px;
 }
 div h3{
 display: flex;
@@ -88,13 +92,17 @@ justify-content: center;
 
 
 .content-left {
-  flex: 0 0 80%;
-
+  flex: 0 0 75%;
+ justify-content: start;
 }
 
+img {
+padding: 40px;
+}
 .content-right {
   flex: 0 0 20%;
   align-self: center;
+  justify-content: center;
 }
 .content{
 display:flex;
